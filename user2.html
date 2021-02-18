@@ -1,0 +1,37 @@
+<html>
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="chat_window">
+    <div class="top_menu">
+        <div class="buttons">
+            
+        </div>
+        <div class="title">Bahar</div>
+    </div>
+    <ul id ="messages" class="messages">
+        
+    </ul>
+     
+    <div class="bottom_wrapper clearfix">
+   <i id="typing"></i>
+    <form id="form">
+        <div class="message_input_wrapper">
+            <input id="message" class="message_input" placeholder="Type your message here..." />
+        </div>
+        <button class="send_message">
+           Send
+        </button>
+      </form>
+    </div>
+</div>
+
+   <script src="https://cdn.jsdelivr.net/gh/rexeze/formatTimeStamp/src/index-cdn.js"></script>
+    <script src="js/chat2.js"></script>
+
+  </body>
+</html>
