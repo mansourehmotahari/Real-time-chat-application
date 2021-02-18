@@ -11,7 +11,6 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 BOOTSTRAP_SERVERS = '127.0.0.1:9092'
-#TOPIC_NAME = 'stackbox'
 
 
 @app.route('/')
